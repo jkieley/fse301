@@ -498,6 +498,9 @@ body.has-main-sidebar #primary {
   width: 70%;
 }
 body.has-main-sidebar #secondary {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   float: right;
   width: 26.5%;
   -ms-box-sizing: border-box;
@@ -531,8 +534,9 @@ body.has-main-sidebar #secondary {
   position: fixed;
   right: 0;
   top: 0;
-  background: #ffffff;
-  background: rgba(255, 255, 255, 0.86);
+  /*background: #ffffff;*/
+  /*background: rgba(255, 255, 255, 0.86);*/
+  color: white !important;
   padding: 25px 0;
   width: 100%;
   z-index: 490;
@@ -544,7 +548,7 @@ body.has-main-sidebar #secondary {
 .site-header .site-title {
   zoom: 1;
   font-size: 24px;
-  color: #444444;
+  color: white;
   font-weight: 400;
   line-height: 1em;
 }
@@ -572,9 +576,6 @@ body.has-main-sidebar #secondary {
   color: #333333;
 }
 .site-header.has-shadow {
-  -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.15);
-  -moz-box-shadow: 0 2px 0 rgba(0,0,0,0.15);
-  box-shadow: 0 2px 0 rgba(0,0,0,0.15);
 }
 .site-header.site-header-sentinel {
   visibility: hidden;
@@ -609,15 +610,21 @@ body.admin-bar #masthead {
   z-index: 10;
 }
 .main-navigation a.main-menu-button {
-  color: #333230;
+  color: white;
   font-weight: 500;
   text-decoration: none;
+}
+
+article {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 .main-navigation a.main-menu-button *[class^="influence-icon"] {
   font-size: 17px;
   display: inline-block;
   margin-right: 0.55em;
-  color: #333230;
+  color: white;
   line-height: 15px;
   vertical-align: bottom;
   opacity: 0.85;
