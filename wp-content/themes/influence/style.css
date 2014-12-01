@@ -531,7 +531,7 @@ body.has-main-sidebar #secondary {
 /* =Masthead
 ----------------------------------------------- */
 .site-header {
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
   /*background: #ffffff;*/
@@ -582,7 +582,6 @@ body.has-main-sidebar #secondary {
   position: static;
 }
 body.admin-bar #masthead {
-  top: 32px;
 }
 @media screen and (max-width: 782px) {
   body.admin-bar #masthead {
